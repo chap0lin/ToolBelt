@@ -1,0 +1,8 @@
+div{
+  width: 200px;
+  height: 50px;
+  border: 1px solid black
+}
+div:hover{
+  border: 30px solid red
+}
