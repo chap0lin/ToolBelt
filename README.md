@@ -1,5 +1,5 @@
 Lista de Features:
-- Conversor de unidades
+- [Luiza]Conversor de unidades
     - Peso kg to lbs
     - Distancia metro to milhas, cm to inch
     - Temperatura C to F
@@ -7,8 +7,8 @@ Lista de Features:
 - calculator
 - calendar
 - Fusos horários (time and date . com)
-- Cores - hex rgb - color picker
-- cronometro
+- [Leonardo]Cores - hex rgb - color picker
+- [Leonardo]cronometro
 - countdown
 - Despertador
 - Days between 2 dates
@@ -18,10 +18,7 @@ Lista de Features:
 - Notas
 - Todo list
 
-- Clima
-- Dolar
-- Euro
-- Bitcoin / Eth [Dropdown]
+- [Francisco] Clima/- Dolar/- Euro/- Bitcoin / Eth [Dropdown]
 - Google Search
 - Youtube Search
 - Down for everyone or just me
