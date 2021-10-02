@@ -1,28 +1,28 @@
 ## Lista de Features:
 - Desenho pronto / Feature desenvolvida
-- [ ] [ ] Conversor de unidades [Luiza]
+- [ ] Conversor de unidades [Luiza]
     - Peso kg to lbs
     - Distancia metro to milhas, cm to inch
     - Temperatura C to F
-- [ ] [ ] Paint
-- [ ] [ ] calculator
-- [ ] [ ] calendar
-- [ ] [ ] Fusos horários (time and date . com)
-- [ ] [ ] Cores - hex rgb - color picker [Leonardo]
-- [ ] [ ] cronometro [Leonardo]
-- [ ] [ ] countdown
-- [ ] [ ] Despertador
-- [ ] [ ] Days between 2 dates
-- [ ] [ ] Date Calculator
-- [ ] [ ] Dice
-- [ ] [ ] Sorteio
-- [ ] [ ] Notas
-- [ ] [ ] Todo list
+- [ ] Paint
+- [ ] calculator
+- [ ] calendar
+- [ ] Fusos horários (time and date . com)
+- [ ] Cores - hex rgb - color picker [Leonardo]
+- [ ] cronometro [Leonardo]
+- [ ] countdown
+- [ ] Despertador
+- [ ] Days between 2 dates
+- [ ] Date Calculator
+- [ ] Dice
+- [ ] Sorteio
+- [ ] Notas
+- [ ] Todo list
 
-- [ ] [ ] Clima [Francisco]
-- [ ] [ ] Dolar/ Euro/ Bitcoin / Eth [Dropdown] [Francisco]
-- [ ] [ ] Google Search
-- [ ] [ ] Youtube Search
-- [ ] [ ] Down for everyone or just me
-- [ ] [ ] translate
-- [ ] [ ] Color pallets
+- [ ] Clima [Francisco]
+- [ ] Dolar/ Euro/ Bitcoin / Eth [Dropdown] [Francisco]
+- [ ] Google Search
+- [ ] Youtube Search
+- [ ] Down for everyone or just me
+- [ ] translate
+- [ ] Color pallets
