@@ -1,6 +1,6 @@
 ## Lista de Features:
 - Desenho pronto / Feature desenvolvida
-- [ ] [ ] Conversor de unidades
+- [ ] [ ] Conversor de unidades [Luiza]
     - Peso kg to lbs
     - Distancia metro to milhas, cm to inch
     - Temperatura C to F
@@ -8,8 +8,8 @@
 - [ ] [ ] calculator
 - [ ] [ ] calendar
 - [ ] [ ] Fusos horários (time and date . com)
-- [ ] [ ] Cores - hex rgb - color picker
-- [ ] [ ] cronometro
+- [ ] [ ] Cores - hex rgb - color picker [Leonardo]
+- [ ] [ ] cronometro [Leonardo]
 - [ ] [ ] countdown
 - [ ] [ ] Despertador
 - [ ] [ ] Days between 2 dates
@@ -19,10 +19,8 @@
 - [ ] [ ] Notas
 - [ ] [ ] Todo list
 
-- [ ] [ ] Clima
-- [ ] [ ] Dolar
-- [ ] [ ] Euro
-- [ ] [ ] Bitcoin / Eth [Dropdown] [ ]
+- [ ] [ ] Clima [Francisco]
+- [ ] [ ] Dolar/ Euro/ Bitcoin / Eth [Dropdown] [Francisco]
 - [ ] [ ] Google Search
 - [ ] [ ] Youtube Search
 - [ ] [ ] Down for everyone or just me
