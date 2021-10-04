@@ -1,8 +1,80 @@
-div{
-  width: 200px;
-  height: 50px;
-  border: 1px solid black
+body{
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #142850;
+  font-family: 'Segoe UI';
+  color: #142850;
 }
-div:hover{
-  border: 30px solid red
+.top-container{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.main-container{
+  width: 975px;
+  height: 600px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+.side-container{
+  height: 600px;
+  width: 300px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+.bottom-container{
+  margin-top: 30px;
+  display: flex;
+  height: 78px;
+  width: 1306px;
+  background-color: #eee;
+  align-self: center;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container{
+
+}
+
+.logo-container h1{
+  font: normal normal normal 32px/43px Segoe UI;
+  letter-spacing: 6.4px;
+  margin-left: 50px;
+  color: #142850;
+}
+
+.toolbelt-menu-items-container{
+  background-color: #eee;
+  width: 650px;
+  height: 65px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toolbelt-menu-items-container .toolbelt-menu-item{
+  height: 50px;
+  width: 50px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+.toolbelt-menu-items-container .toolbelt-menu-item svg{
+  height: 50px;
+  color: #142850;
+}
+.toolbelt-menu-items-container .selected-menu-item{
+  background-color: #142850;
+  margin: -7px;
+  border-radius: 5px;
+}
+.toolbelt-menu-items-container .selected-menu-item svg{
+  color: #eee
 }
