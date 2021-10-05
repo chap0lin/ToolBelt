@@ -14,14 +14,14 @@ body{
   justify-content: center;
 }
 .main-container{
-  width: 975px;
+  min-width: 975px;
   height: 600px;
   background-color: #eee;
   border-radius: 10px;
 }
 .side-container{
   height: 600px;
-  width: 300px;
+  min-width: 300px;
   background-color: #eee;
   border-radius: 10px;
 }
