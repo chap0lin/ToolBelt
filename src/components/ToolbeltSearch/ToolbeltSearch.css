@@ -26,12 +26,17 @@
 }
 
 .toolbelt-search-input{
+  padding-left: 20px;
   align-self: center;
   width: 400px;
   height: 40px;
   background: #FFFFFF99 0% 0% no-repeat padding-box;
   border: 1px solid #142850;
   border-radius: 10px;
+  text-align: left;
+  font: normal normal 600 16px/21px Segoe UI;
+  letter-spacing: 0.32px;
+  color: #142850;
 }
 
 .toolbelt-search-buttons-container{
@@ -43,11 +48,74 @@
 .toolbelt-search-buttons-container button{
   width: 155px;
   height: 40px;
-  /* background: transparent url('../../../assets/imgs/ylogo.png') 0% 0% no-repeat padding-box; */
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40px;
+  background-position-x: 95px;
   border: 1px solid #142850;
   border-radius: 10px;
 }
+.toolbelt-search-buttons-container button:hover{
+  background-color: rgba(20, 40, 80, 0.05);
+  cursor: pointer;
+}
+.toolbelt-search-buttons-container button:first-child{
+  background-image: url('../../../assets/imgs/glogo.png');
+  background-size: 30px;
+}
+.toolbelt-search-buttons-container button:last-child{
+  background-image: url('../../../assets/imgs/ylogo.png');
+}
+
 .toolbelt-search-buttons-container button p{
   text-align: left;
+  font: normal normal 600 16px/21px Segoe UI;
+  letter-spacing: 0.32px;
+  color: #142850;
+  margin: 0px;
   margin-left: 20px;
+  }
+
+.toolbelt-search-isitup-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 186px;
+  margin-right: 50px;
+}
+.toolbelt-search-isitup-container .toolbelt-search-loading-div{
+  max-width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.up svg{
+  height: 22px;
+  color: #36882D;
+}
+.down svg{
+  height: 22px;
+  transform: scaleY(-1);
+  color: #A4363B;
+}
+.toolbelt-search-isitup-button{
+  font: normal normal 600 16px/21px Segoe UI;
+  letter-spacing: 0.32px;
+  color: #142850;
+  border:0;
+}
+.toolbelt-search-isitup-button:hover{
+  cursor: pointer;
+}
+
+@keyframes spin-3c4f8511-4013-4e79-ac46-90bafe9cc9fd
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.5856,0.0703,0.4143,0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
