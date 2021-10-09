@@ -112,6 +112,6 @@ const ToolBeltSearch = () =>{
   mainContainer.appendChild(input)
   mainContainer.appendChild(buttonsContainer)
   mainContainer.appendChild(isItUpContainer)
-  AddCss('./src/components/ToolBeltSearch/ToolBeltSearch.css')
+  AddCss('./src/components/ToolbeltSearch/ToolbeltSearch.css')
 }
 export default ToolBeltSearch
