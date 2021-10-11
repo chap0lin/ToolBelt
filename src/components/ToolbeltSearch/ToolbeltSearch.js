@@ -49,6 +49,7 @@ function checkIsItUp(){
 }
 
 const ToolBeltSearch = () =>{
+  AddCss('./src/components/ToolbeltSearch/ToolbeltSearch.css')
   const mainContainer = document.querySelector('.main-container')
 
   const toolbeltSearchContainer = document.createElement('div')
@@ -112,6 +113,5 @@ const ToolBeltSearch = () =>{
   mainContainer.appendChild(input)
   mainContainer.appendChild(buttonsContainer)
   mainContainer.appendChild(isItUpContainer)
-  AddCss('./src/components/ToolbeltSearch/ToolbeltSearch.css')
 }
 export default ToolBeltSearch
