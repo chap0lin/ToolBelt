@@ -108,7 +108,11 @@ body{
 .toolbelt-converter-boxes-container {
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   justify-content: space-between;
+=======
+  justify-content: flex-start;
+>>>>>>> ffba92e5096cd86b6d3ca76b04b7e8b17be3492a
   margin-top: 18px;
   margin-bottom: 18px;
   margin-left: 10px;
@@ -119,6 +123,10 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+<<<<<<< HEAD
+=======
+  margin-left: 20px;
+>>>>>>> ffba92e5096cd86b6d3ca76b04b7e8b17be3492a
 }
 
 .inputNumber {
@@ -141,6 +149,7 @@ body{
   border: 1px solid #142850;
   border-radius: 0px 8px 8px 0px;
   opacity: 1;
+<<<<<<< HEAD
 } 
 
 .toolbelt-converter-swap-icon svg{
@@ -148,3 +157,6 @@ body{
   height: 32px;
   width: 32px;
 }
+=======
+} 
+>>>>>>> ffba92e5096cd86b6d3ca76b04b7e8b17be3492a
