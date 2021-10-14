@@ -27,8 +27,9 @@
 
                 <div class="toolbelt-converter-boxes-container">
                     <div class="one-box">
-                        <input type="number" step="any" class="inputNumber"/>
-                        <select name="SI-measures" id="SI-measures" class="unitSelector">
+                        <input type="number" step="any" class="inputNumber" id="firstField"/>
+                        <select name="normal-measures" id="normal-measures" class="unitSelector">
+                            <!-- <option value="null"> </option> -->
                             <option value="kg">kg</option>
                             <option value="m">m</option>
                             <option value="cm">cm</option>
@@ -36,20 +37,53 @@
                             </optgroup>
                         </select>
                     </div>
-                        
+                    <div class="toolbelt-converter-swap-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Swap Horizontal</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M304 48l112 112-112 112M398.87 160H96M208 464L96 352l112-112M114 352h302"/></svg>
+                    </div>
                     <div class="one-box">
-                        <input type="number" step="any" class="inputNumber"/>
-                        <select name="SI-measures" id="SI-measures" class="unitSelector">
-                            <option value="lb">Lb</option>
+                        <input type="number" step="any" class="inputNumber" id="secondField"/>
+                        <select name="weird-measures" id="weird-measures" class="unitSelector">
+                            <!-- <option value="null"> </option> -->
+                            <option value="lbs">Lbs</option>
                             <option value="miles">miles</option>
                             <option value="inch">inch</option>
                             <option value="F">F</option>
                             </optgroup>
                         </select>
                     </div>
-                        
-
                 </div>
+                <script>
+                    let firstField = document.getElementById("firstField");
+                    let secondField = document.getElementById("secondField");
+            
+                    var selectBox1 = document.getElementById('normal-measures');
+                    var value1 = selectBox1.options[selectBox1.selectedIndex].value;
+
+                    var selectBox2 = document.getElementById('weird-measures');
+                    var value2 = selectBox2.options[selectBox2.selectedIndex].value;
+
+                    console.log(value1 + '\n');
+                    console.log(value2 + '\n');
+
+                    if (value1 === "kg" && value2 === "lbs"){
+                        firstField.addEventListener("keypress", (evt)=>{
+                        if(evt.key == "Enter")
+                            secondField.value = (firstField.value/0.453592).toFixed(2)
+                        })
+                        firstField.addEventListener("blur", ()=>{
+                            secondField.value = (firstField.value/0.453592).toFixed(2)
+                        })
+                        secondField.addEventListener("keypress", (evt)=>{
+                            if(evt.key == "Enter")
+                                firstField.value = (secondField.value*0.453592).toFixed(2)
+                        })
+                        secondField.addEventListener("blur", ()=>{
+                            firstField.value = (secondField.value*0.453592).toFixed(2)
+                        })
+                    }
+            
+            
+                </script>
 
             </div>
 
