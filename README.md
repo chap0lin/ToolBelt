@@ -21,8 +21,8 @@
 
 - [ ] Clima [Francisco]
 - [ ] Dolar/ Euro/ Bitcoin / Eth [Dropdown] [Francisco]
-- [ ] Google Search
-- [ ] Youtube Search
-- [ ] Down for everyone or just me
+- [x] Google Search [Carlos]
+- [x] Youtube Search [Carlos]
+- [x] Down for everyone or just me [Carlos]
 - [ ] translate
 - [ ] Color pallets
