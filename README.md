@@ -1,5 +1,4 @@
 ## Lista de Features:
-- Desenho pronto / Feature desenvolvida
 - [ ] Conversor de unidades [Luiza]
     - Peso kg to lbs
     - Distancia metro to milhas, cm to inch
