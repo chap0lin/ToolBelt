@@ -1,3 +1,5 @@
+## :memo: Descrição
+Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para ser usada como homepage! :D
 ## Lista de Features:
 - [ ] Conversor de unidades [Luiza]
     - Peso kg to lbs
