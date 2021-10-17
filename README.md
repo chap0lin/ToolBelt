@@ -69,7 +69,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				<img src="https://avatars.githubusercontent.com/u/91640562?v=4" width="100px;" alt=""/>
 				<br />
 				<sub>
-					<b>Leonardo Monteira</b>
+					<b>Leonardo Monteiro</b>
 				</sub>
 			</a>
 			<br />
