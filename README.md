@@ -20,7 +20,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 - [ ] Notas
 - [ ] Todo list
 
-- [ ] Clima [Francisco]
+- [ ] Climate [Francisco]
 - [ ] Dolar/ Euro/ Bitcoin / Eth [Dropdown] [Francisco]
 - [x] Google Search [Carlos]
 - [x] Youtube Search [Carlos]
