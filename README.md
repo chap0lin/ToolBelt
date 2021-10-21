@@ -5,8 +5,8 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
     - Peso kg to lbs
     - Distancia metro to milhas, cm to inch
     - Temperatura C to F
-- [ ] Paint
-- [ ] calculator
+- [ ] Paint [Carlos]
+- [ ] calculator [Leo Rodrigues]
 - [ ] calendar
 - [ ] Fusos horários (time and date . com)
 - [ ] Cores - hex rgb - color picker [Leonardo]
@@ -25,7 +25,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 - [x] Google Search [Carlos]
 - [x] Youtube Search [Carlos]
 - [x] Down for everyone or just me [Carlos]
-- [ ] translate
+- [ ] translate [Rafaela]
 - [ ] Color pallets
 
 **Contribuidores:**
@@ -70,6 +70,17 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				<br />
 				<sub>
 					<b>Leonardo Monteiro</b>
+				</sub>
+			</a>
+			<br />
+			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=Giancarl021" title="Code">💻</a> -->
+		</td>
+		<td align="center">
+			<a href="https://github.com/leoquiro">
+				<img src="https://avatars.githubusercontent.com/u/91341492?v=4" width="100px;" alt=""/>
+				<br />
+				<sub>
+					<b>Leo Rodrigues</b>
 				</sub>
 			</a>
 			<br />
