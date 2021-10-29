@@ -1,0 +1,69 @@
+.calculator {
+   height: 151px;
+   padding-bottom: 0px;
+}
+
+.display  {
+   background-color: rgb(238, 238, 238);
+   border: 5px solid rgb(20, 40, 80);
+   border-radius: 10%;
+   height: 20px;
+   width: 100px;
+   margin-top: 15px;
+   margin-left: 27.5px;
+   text-align: right;
+   font-size: 15px;
+}
+.output {
+    background-color: rgb(238, 238, 238);
+   border: 5px solid rgb(20, 40, 80);
+   border-radius: 0%;
+   height: 20px;
+   width: 100px;
+   margin-top: -5px;
+   margin-left: 27.5px;
+   text-align: right;
+   font-size: 20px;
+   font-weight: 700;
+   color: rgb(20, 40, 80);
+}
+
+.grid {
+    float: left;
+    height: 120px;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: grid;
+    justify-content: left;
+    min-height: 100px;  
+    grid-template-columns: repeat(4, 30px);
+    grid-template-rows: repeat(7,20px);
+    background-color: rgb(238, 238, 238);
+}
+
+.calcbutton, .operator{
+    background-color: rgb(20, 40, 80);
+    font-size: 15px;
+    font-weight: thin;
+    color: white ;
+    border-radius: 0%;
+    transition-duration: 0.5s;
+  }
+  .grid > button:hover {
+    background-color: rgb(25, 190, 231);
+    cursor: pointer;
+    color: black;
+  }
+
+  #duo {
+    grid-column: span 2;
+    background-color: rgb(25, 190, 231);
+    color: white;
+  }
+
+  #duotop {
+    grid-row-start:  2;
+    grid-area: 2/4/7/4;
+    background-color: rgb(25, 190, 231);
+    color: white;
+  }
