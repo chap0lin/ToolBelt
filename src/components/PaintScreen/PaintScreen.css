@@ -1,0 +1,30 @@
+.paint-screen-container{
+
+}
+.paint-screen-container canvas{
+  border-bottom: 5px solid #142850;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.paint-screen-container canvas:hover{
+  cursor: url(../../../assets/imgs/pencil.png) 13 23, crosshair;
+}
+
+.paint-screen-container .paint-buttons-container{
+  height: 55px;
+  width: 977px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -4px;
+}
+
+.paint-screen-container .paint-buttons-container input {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #142850;
+  color: #142850;
+  border-radius: 10px;
+}
