@@ -1,5 +1,8 @@
 ## :memo: Descrição
 Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para ser usada como homepage! :D
+
+## Desenho UI:
+https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
 ## Lista de Features:
 - [ ] Conversor de unidades [Luiza]
     - Peso kg to lbs
@@ -40,7 +43,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=tiago-ds" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/Luiza-cm">
@@ -51,7 +54,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=guilhermeasper" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/franciscomatheuspereira">
@@ -62,7 +65,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=Giancarl021" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/leonardoleo10">
@@ -73,7 +76,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=Giancarl021" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/leoquiro">
@@ -84,7 +87,18 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=Giancarl021" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
+		</td>
+		<td align="center">
+			<a href="https://github.com/RSinhoroto">
+				<img src="https://avatars.githubusercontent.com/u/11700537?v=4" width="100px;" alt=""/>
+				<br />
+				<sub>
+					<b>Rafaela Sinhoroto</b>
+				</sub>
+			</a>
+			<br />
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 	</tr>
 </table>

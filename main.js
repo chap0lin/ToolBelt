@@ -1,3 +1,5 @@
-import ToolBeltSearch from './src/components/ToolbeltSearch/ToolbeltSearch.js'
+// import ToolBeltSearch from './src/components/ToolbeltSearch/ToolbeltSearch.js'
+import Navigator from './src/utils/Navigator.js'
 
-ToolBeltSearch()
+const screen = Navigator()
+screen()

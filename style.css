@@ -86,9 +86,8 @@ body{
 }
 .toolbelt-menu-items-container .selected-menu-item{
   background-color: #142850;
-  margin: -7px;
-  border-radius: 5px;
 }
+
 .toolbelt-menu-items-container .selected-menu-item svg{
   color: #eee
 }
