@@ -76,6 +76,9 @@ body{
   align-items: center;
   justify-content: center;
   border: 0;
+  border-radius: 5px;
+  margin: -7px;
+  transition: ease-out 0.2s;
 }
 .toolbelt-menu-items-container .toolbelt-menu-item svg{
   height: 50px;
@@ -89,3 +92,12 @@ body{
 .toolbelt-menu-items-container .selected-menu-item svg{
   color: #eee
 }
+
+.toolbelt-menu-item:hover{
+  transform: scale(1.2);
+}
+
+.selected-menu-item:hover{
+  transform: scale(1);
+}
+
