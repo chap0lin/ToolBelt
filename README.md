@@ -40,7 +40,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=tiago-ds" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/Luiza-cm">
@@ -51,7 +51,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=guilhermeasper" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/franciscomatheuspereira">
@@ -62,7 +62,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=Giancarl021" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/leonardoleo10">
@@ -73,7 +73,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=Giancarl021" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 		<td align="center">
 			<a href="https://github.com/leoquiro">
@@ -84,7 +84,18 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 				</sub>
 			</a>
 			<br />
-			<!-- <a href="https://github.com/tiago-ds/Public-MarquinhosBOT/commits?author=Giancarl021" title="Code">💻</a> -->
+			<!-- <a href="#" title="Code">💻</a> -->
+		</td>
+		<td align="center">
+			<a href="https://github.com/RSinhoroto">
+				<img src="https://avatars.githubusercontent.com/u/11700537?v=4" width="100px;" alt=""/>
+				<br />
+				<sub>
+					<b>Rafaela Sinhoroto</b>
+				</sub>
+			</a>
+			<br />
+			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
 	</tr>
 </table>
