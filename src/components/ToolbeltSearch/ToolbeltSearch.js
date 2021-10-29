@@ -52,6 +52,9 @@ const ToolBeltSearch = () =>{
   AddCss('./src/components/ToolbeltSearch/ToolbeltSearch.css')
   const mainContainer = document.querySelector('.main-container')
 
+  const SearchScreenContainer = document.createElement('div')
+  SearchScreenContainer.classList.add('search-screen-container')
+
   const toolbeltSearchContainer = document.createElement('div')
   toolbeltSearchContainer.classList.add('toolbelt-search-container')
 
@@ -109,9 +112,15 @@ const ToolBeltSearch = () =>{
   isItUpContainer.appendChild(loadingStatus)
 
 
-  mainContainer.appendChild(toolbeltSearchContainer)
-  mainContainer.appendChild(input)
-  mainContainer.appendChild(buttonsContainer)
-  mainContainer.appendChild(isItUpContainer)
+  SearchScreenContainer.appendChild(toolbeltSearchContainer)
+  SearchScreenContainer.appendChild(input)
+  SearchScreenContainer.appendChild(buttonsContainer)
+  SearchScreenContainer.appendChild(isItUpContainer)
+
+  mainContainer.appendChild(SearchScreenContainer)
+}
+
+export const ToolbeltSearchDestroy = () => {
+  document.querySelector('.search-screen-container').remove()
 }
 export default ToolBeltSearch
