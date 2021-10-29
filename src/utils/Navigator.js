@@ -44,7 +44,7 @@ const Navigator = () => {
   CreateToolbeltMenuListeners()
 
   // Homepage
-  return ToolBeltSearch
+  return CurrentSelectedMenuItem.screen
 }
 
 export default Navigator
