@@ -8,28 +8,22 @@ https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
     - Peso kg to lbs
     - Distancia metro to milhas, cm to inch
     - Temperatura C to F
-- [ ] Paint [Carlos]
-- [ ] calculator [Leo Rodrigues]
-- [ ] calendar
-- [ ] Fusos horários (time and date . com)
-- [ ] Cores - hex rgb - color picker [Leonardo]
-- [ ] cronometro [Leonardo]
-- [ ] countdown
-- [ ] Despertador
-- [ ] Days between 2 dates
-- [ ] Date Calculator
-- [ ] Dice
-- [ ] Sorteio
-- [ ] Notas
-- [ ] Todo list
+- [x] Paint [Carlos]
+- [ ] Calculator [Leo R.]
+- [ ] Cores - hex rgb - color picker [Leo R.]
+- [ ] Cronometro [Leo M.]
+- [ ] Countdown [Leo M.]
+- [ ] Dice [Carlos]
+- [ ] Sorteio [Carlos]
+- [ ] Notas [Rafaela]
 
-- [ ] Climate [Francisco]
-- [ ] Dolar/ Euro/ Bitcoin / Eth [Dropdown] [Francisco]
+- [ ] Climate [Francisco / Leo M.]
+- [ ] Conversor Dolar/ Euro/ Bitcoin / Eth [Luiza]
 - [x] Google Search [Carlos]
 - [x] Youtube Search [Carlos]
 - [x] Down for everyone or just me [Carlos]
-- [ ] translate [Rafaela]
-- [ ] Color pallets
+- [ ] Translate [Rafaela]
+- [ ] Color pallets [Leo R.]
 
 **Contribuidores:**
 <table>
