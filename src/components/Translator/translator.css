@@ -1,0 +1,56 @@
+#translator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#translator div {
+  width: 120px;
+  height: 100px;
+}
+
+#translator .translate-button {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#translator .translate-button svg {
+  color: #142850;
+}
+
+#translator div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 25px;
+  margin: 0;
+
+  border-radius: 5px 5px 0px 0px;
+  background-color: #142850;
+}
+
+#translator div div h1 {
+  color: #eee;
+  font: normal normal 600 14px/19px Segoe UI;
+  letter-spacing: 0.28px;
+}
+
+#translator div textarea {
+  width: 120px;
+  height: 75px;
+  resize: none;
+  padding: 5px;
+  box-sizing: border-box;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #142850;
+  border-radius: 0px 0px 5px 5px;
+  opacity: 1;
+}
