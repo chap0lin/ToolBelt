@@ -1,0 +1,61 @@
+.toolbelt-converter-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+  margin-bottom: 5px;
+  
+} 
+
+.toolbelt-converter-icons-container svg{
+  color: #142850;
+  height: 32px;
+  width: 32px;
+}
+
+.toolbelt-converter-boxes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+
+.one-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.inputNumber {
+  top: 338px;
+  left: 1045px;
+  width: 60px;
+  height: 32px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #142850;
+  border-radius: 8px 0px 0px 8px;
+  opacity: 1;
+} 
+
+.unitSelector {
+  top: 338px;
+  left: 1124px;
+  width: 40px;
+  height: 36px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #142850;
+  border-radius: 0px 8px 8px 0px;
+  opacity: 1;
+} 
+
+.toolbelt-converter-swap-icon svg{
+  color: #142850;
+  height: 32px;
+  width: 32px;
+}
+.toolbelt-menu-item:hover{
+  transform: scale(1.2);
+}
