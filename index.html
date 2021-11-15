@@ -1,210 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets//imgs/logo.png"
+      type="image/x-icon"
+    />
     <title>ToolBelt</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script defer src="main.js" type="module"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="top-container">
-        <div class="main-container">
-                     
+      <div class="main-container"></div>
+      <div class="side-container">
+        <div class="side-container-item"></div>
+        <div class="side-container-item"></div>
+        <div class="side-container-item">
+          <div class="toolbelt-converter-icons-container">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="weight-hanging" class="svg-inline--fa fa-weight-hanging fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M510.28 445.86l-73.03-292.13c-3.8-15.19-16.44-25.72-30.87-25.72h-60.25c3.57-10.05 5.88-20.72 5.88-32 0-53.02-42.98-96-96-96s-96 42.98-96 96c0 11.28 2.3 21.95 5.88 32h-60.25c-14.43 0-27.08 10.54-30.87 25.72L1.72 445.86C-6.61 479.17 16.38 512 48.03 512h415.95c31.64 0 54.63-32.83 46.3-66.14zM256 128c-17.64 0-32-14.36-32-32s14.36-32 32-32 32 14.36 32 32-14.36 32-32 32z"></path></svg>
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ruler-horizontal" class="svg-inline--fa fa-ruler-horizontal fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M544 128h-48v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8H88c-4.42 0-8-3.58-8-8v-88H32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h512c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32z"></path></svg>
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="thermometer-three-quarters" class="svg-inline--fa fa-thermometer-three-quarters fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M192 384c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64 0-23.685 12.876-44.349 32-55.417V160c0-17.673 14.327-32 32-32s32 14.327 32 32v168.583c19.124 11.068 32 31.732 32 55.417zm32-84.653c19.912 22.563 32 52.194 32 84.653 0 70.696-57.303 128-128 128-.299 0-.609-.001-.909-.003C56.789 511.509-.357 453.636.002 383.333.166 351.135 12.225 321.755 32 299.347V96c0-53.019 42.981-96 96-96s96 42.981 96 96v203.347zM208 384c0-34.339-19.37-52.19-32-66.502V96c0-26.467-21.533-48-48-48S80 69.533 80 96v221.498c-12.732 14.428-31.825 32.1-31.999 66.08-.224 43.876 35.563 80.116 79.423 80.42L128 464c44.112 0 80-35.888 80-80z"></path></svg>
         </div>
-        <div class="side-container">
-            <div class="side-container-item"></div>
-            <div class="side-container-item"></div>
 
-            <div class="side-container-item">
-
-                <div class="toolbelt-converter-icons-container">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="weight-hanging" class="svg-inline--fa fa-weight-hanging fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M510.28 445.86l-73.03-292.13c-3.8-15.19-16.44-25.72-30.87-25.72h-60.25c3.57-10.05 5.88-20.72 5.88-32 0-53.02-42.98-96-96-96s-96 42.98-96 96c0 11.28 2.3 21.95 5.88 32h-60.25c-14.43 0-27.08 10.54-30.87 25.72L1.72 445.86C-6.61 479.17 16.38 512 48.03 512h415.95c31.64 0 54.63-32.83 46.3-66.14zM256 128c-17.64 0-32-14.36-32-32s14.36-32 32-32 32 14.36 32 32-14.36 32-32 32z"></path></svg>
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ruler-horizontal" class="svg-inline--fa fa-ruler-horizontal fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M544 128h-48v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-88h-64v88c0 4.42-3.58 8-8 8H88c-4.42 0-8-3.58-8-8v-88H32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h512c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32z"></path></svg>
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="thermometer-three-quarters" class="svg-inline--fa fa-thermometer-three-quarters fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M192 384c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64 0-23.685 12.876-44.349 32-55.417V160c0-17.673 14.327-32 32-32s32 14.327 32 32v168.583c19.124 11.068 32 31.732 32 55.417zm32-84.653c19.912 22.563 32 52.194 32 84.653 0 70.696-57.303 128-128 128-.299 0-.609-.001-.909-.003C56.789 511.509-.357 453.636.002 383.333.166 351.135 12.225 321.755 32 299.347V96c0-53.019 42.981-96 96-96s96 42.981 96 96v203.347zM208 384c0-34.339-19.37-52.19-32-66.502V96c0-26.467-21.533-48-48-48S80 69.533 80 96v221.498c-12.732 14.428-31.825 32.1-31.999 66.08-.224 43.876 35.563 80.116 79.423 80.42L128 464c44.112 0 80-35.888 80-80z"></path></svg>
-                </div>
-
-                <div class="toolbelt-converter-boxes-container">
-                    <div class="one-box">
-                        <input type="number" step="any" class="inputNumber" id="firstField"/>
-                        <select name="normal-measures" id="normal-measures" class="unitSelector">
-                            <option value="kg">kg</option>
-                            <option value="m">m</option>
-                            <option value="cm">cm</option>
-                            <option value="C">Cº</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                    <div class="toolbelt-converter-swap-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Swap Horizontal</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M304 48l112 112-112 112M398.87 160H96M208 464L96 352l112-112M114 352h302"/></svg>
-                    </div>
-                    <div class="one-box">
-                        <input type="number" step="any" class="inputNumber" id="secondField"/>
-                        <select name="weird-measures" id="weird-measures" class="unitSelector">
-                            <option value="lbs">Lbs</option>
-                            <option value="miles">mi</option>
-                            <option value="inch">in</option>
-                            <option value="F">F</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                </div>
-                <script>
-                    let firstField = document.getElementById("firstField");
-                    let secondField = document.getElementById("secondField");
-            
-                    var selectBox1 = document.getElementById('normal-measures');
-                    var value1;
-
-                    var selectBox2 = document.getElementById('weird-measures');
-                    var value2;
-
-                    selectBox1.addEventListener("change", ()=>{
-                      selectBox2.selectedIndex=selectBox1.selectedIndex;
-                    })
-                    selectBox2.addEventListener("change", ()=>{
-                      selectBox1.selectedIndex=selectBox2.selectedIndex;
-                    })
-
-                    
-                    firstField.addEventListener("keypress", (evt)=>{
-                      console.log("key press", evt.key, value1, value2)
-                      if(evt.key == "Enter"){
-                        value1 = selectBox1.options[selectBox1.selectedIndex].value;
-                        value2 = selectBox2.options[selectBox2.selectedIndex].value;
-                        if (value1 === "kg" && value2 === "lbs"){
-                            secondField.value = (firstField.value/0.453592).toFixed(2)
-                        }
-                        if (value1 === "m" && value2 === "miles"){
-                            secondField.value = (firstField.value/1609.34).toFixed(2)
-                        }
-                        if (value1 === "cm" && value2 === "inch"){
-                            secondField.value = (firstField.value/2.54).toFixed(2)
-                        }
-                        if (value1 === "C" && value2 === "F"){
-                            secondField.value = (firstField.value*1.8+32).toFixed(2)
-                        } 
-                      }
-                    })
-
-                    firstField.addEventListener("blur", ()=>{
-                      value1 = selectBox1.options[selectBox1.selectedIndex].value;
-                      value2 = selectBox2.options[selectBox2.selectedIndex].value;
-                      if (value1 === "kg" && value2 === "lbs"){
-                          secondField.value = (firstField.value/0.453592).toFixed(2)
-                      }
-                      if (value1 === "m" && value2 === "miles"){
-                          secondField.value = (firstField.value/1609.34).toFixed(2)
-                      }
-                      if (value1 === "cm" && value2 === "inch"){
-                          secondField.value = (firstField.value/2.54).toFixed(2)
-                      }
-                      if (value1 === "C" && value2 === "F"){
-                          secondField.value = (firstField.value*1.8+32).toFixed(2)
-                      } 
-                    })
-
-
-                    secondField.addEventListener("keypress", (evt)=>{
-                      if(evt.key == "Enter"){
-                        value1 = selectBox1.options[selectBox1.selectedIndex].value;
-                        value2 = selectBox2.options[selectBox2.selectedIndex].value;
-                        if (value1 === "kg" && value2 === "lbs"){
-                            firstField.value = (secondField.value*0.453592).toFixed(2)
-                        }
-                        if (value1 === "m" && value2 === "miles"){
-                            firstField.value = (secondField.value*1609.34).toFixed(2)
-                        }
-                        if (value1 === "cm" && value2 === "inch"){
-                            firstField.value = (secondField.value*2.54).toFixed(2)
-                        }
-                        if (value1 === "C" && value2 === "F"){
-                          firstField.value = ((secondField.value-32)/1.8).toFixed(2)
-                        } 
-                      }
-                    })
-
-                    secondField.addEventListener("blur", ()=>{
-                      value1 = selectBox1.options[selectBox1.selectedIndex].value;
-                      value2 = selectBox2.options[selectBox2.selectedIndex].value;
-                      if (value1 === "kg" && value2 === "lbs"){
-                          firstField.value = (secondField.value*0.453592).toFixed(2)
-                      }
-                      if (value1 === "m" && value2 === "miles"){
-                          firstField.value = (secondField.value*1609.34).toFixed(2)
-                      }
-                      if (value1 === "cm" && value2 === "inch"){
-                          firstField.value = (secondField.value*2.54).toFixed(2)
-                      }
-                      if (value1 === "C" && value2 === "F"){
-                        firstField.value = ((secondField.value-32)/1.8).toFixed(2)
-                      } 
-                    })
-
-                </script>
-
+        <div class="toolbelt-converter-boxes-container">
+            <div class="one-box">
+                <input type="number" step="any" class="inputNumber" id="firstField"/>
+                <select name="normal-measures" id="normal-measures" class="unitSelector">
+                    <option value="kg">kg</option>
+                    <option value="m">m</option>
+                    <option value="cm">cm</option>
+                    <option value="C">Cº</option>
+                    </optgroup>
+                </select>
             </div>
-
-            <div class="side-container-item"></div>
-            <div class="side-container-item"></div>
+            <div class="toolbelt-converter-swap-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Swap Horizontal</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M304 48l112 112-112 112M398.87 160H96M208 464L96 352l112-112M114 352h302"/></svg>
+            </div>
+            <div class="one-box">
+                <input type="number" step="any" class="inputNumber" id="secondField"/>
+                <select name="weird-measures" id="weird-measures" class="unitSelector">
+                    <option value="lbs">Lbs</option>
+                    <option value="miles">mi</option>
+                    <option value="inch">in</option>
+                    <option value="F">F</option>
+                    </optgroup>
+                </select>
+            </div>
         </div>
+        <script>
+            let firstField = document.getElementById("firstField");
+            let secondField = document.getElementById("secondField");
+    
+            var selectBox1 = document.getElementById('normal-measures');
+            var value1;
+
+            var selectBox2 = document.getElementById('weird-measures');
+            var value2;
+
+            selectBox1.addEventListener("change", ()=>{
+              selectBox2.selectedIndex=selectBox1.selectedIndex;
+            })
+            selectBox2.addEventListener("change", ()=>{
+              selectBox1.selectedIndex=selectBox2.selectedIndex;
+            })
+
+            
+            firstField.addEventListener("keypress", (evt)=>{
+              console.log("key press", evt.key, value1, value2)
+              if(evt.key == "Enter"){
+                value1 = selectBox1.options[selectBox1.selectedIndex].value;
+                value2 = selectBox2.options[selectBox2.selectedIndex].value;
+                if (value1 === "kg" && value2 === "lbs"){
+                    secondField.value = (firstField.value/0.453592).toFixed(2)
+                }
+                if (value1 === "m" && value2 === "miles"){
+                    secondField.value = (firstField.value/1609.34).toFixed(2)
+                }
+                if (value1 === "cm" && value2 === "inch"){
+                    secondField.value = (firstField.value/2.54).toFixed(2)
+                }
+                if (value1 === "C" && value2 === "F"){
+                    secondField.value = (firstField.value*1.8+32).toFixed(2)
+                } 
+              }
+            })
+
+            firstField.addEventListener("blur", ()=>{
+              value1 = selectBox1.options[selectBox1.selectedIndex].value;
+              value2 = selectBox2.options[selectBox2.selectedIndex].value;
+              if (value1 === "kg" && value2 === "lbs"){
+                  secondField.value = (firstField.value/0.453592).toFixed(2)
+              }
+              if (value1 === "m" && value2 === "miles"){
+                  secondField.value = (firstField.value/1609.34).toFixed(2)
+              }
+              if (value1 === "cm" && value2 === "inch"){
+                  secondField.value = (firstField.value/2.54).toFixed(2)
+              }
+              if (value1 === "C" && value2 === "F"){
+                  secondField.value = (firstField.value*1.8+32).toFixed(2)
+              } 
+            })
+
+
+            secondField.addEventListener("keypress", (evt)=>{
+              if(evt.key == "Enter"){
+                value1 = selectBox1.options[selectBox1.selectedIndex].value;
+                value2 = selectBox2.options[selectBox2.selectedIndex].value;
+                if (value1 === "kg" && value2 === "lbs"){
+                    firstField.value = (secondField.value*0.453592).toFixed(2)
+                }
+                if (value1 === "m" && value2 === "miles"){
+                    firstField.value = (secondField.value*1609.34).toFixed(2)
+                }
+                if (value1 === "cm" && value2 === "inch"){
+                    firstField.value = (secondField.value*2.54).toFixed(2)
+                }
+                if (value1 === "C" && value2 === "F"){
+                  firstField.value = ((secondField.value-32)/1.8).toFixed(2)
+                } 
+              }
+            })
+
+            secondField.addEventListener("blur", ()=>{
+              value1 = selectBox1.options[selectBox1.selectedIndex].value;
+              value2 = selectBox2.options[selectBox2.selectedIndex].value;
+              if (value1 === "kg" && value2 === "lbs"){
+                  firstField.value = (secondField.value*0.453592).toFixed(2)
+              }
+              if (value1 === "m" && value2 === "miles"){
+                  firstField.value = (secondField.value*1609.34).toFixed(2)
+              }
+              if (value1 === "cm" && value2 === "inch"){
+                  firstField.value = (secondField.value*2.54).toFixed(2)
+              }
+              if (value1 === "C" && value2 === "F"){
+                firstField.value = ((secondField.value-32)/1.8).toFixed(2)
+              } 
+            })
+
+        </script>
+        </div>
+        <div class="side-container-item"></div>
+        <div class="side-container-item" id="translator"></div>
+      </div>
     </div>
     <div class="bottom-container">
-        <div class="logo-container">
-            <h1>TOOLBELT</h1>
-        </div>
-        <div class="toolbelt-menu-items-container">
-            <button class="toolbelt-menu-item selected-menu-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Search</title>
-                    <path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/>
-                </svg>
-            </button>   
-            <button class="toolbelt-menu-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Calendar</title>
-                    <rect fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" x="48" y="80" width="416" height="384" rx="48"/>
-                    <circle cx="296" cy="232" r="24"/><circle cx="376" cy="232" r="24"/><circle cx="296" cy="312" r="24"/>
-                    <circle cx="376" cy="312" r="24"/><circle cx="136" cy="312" r="24"/><circle cx="216" cy="312" r="24"/>
-                    <circle cx="136" cy="392" r="24"/><circle cx="216" cy="392" r="24"/><circle cx="296" cy="392" r="24"/>
-                    <path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" stroke-linecap="round" d="M128 48v32M384 48v32"/>
-                    <path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" d="M464 160H48"/>
-                </svg>
-            </button>   
-            <button class="toolbelt-menu-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Reader</title>
-                    <rect x="96" y="48" width="320" height="416" rx="48" ry="48" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/>
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M176 128h160M176 208h160M176 288h80"/>
-                </svg>
-            </button>   
-            <button class="toolbelt-menu-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Stopwatch</title>
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 232v-80"/>
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M256 88V72M132 132l-12-12"/>
-                    <circle cx="256" cy="272" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
-                    <path d="M256 96a176 176 0 10176 176A176 176 0 00256 96z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
-                </svg>            </button>   
-            <button class="toolbelt-menu-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Color Palette</title>
-                    <path d="M430.11 347.9c-6.6-6.1-16.3-7.6-24.6-9-11.5-1.9-15.9-4-22.6-10-14.3-12.7-14.3-31.1 0-43.8l30.3-26.9c46.4-41 46.4-108.2 0-149.2-34.2-30.1-80.1-45-127.8-45-55.7 0-113.9 20.3-158.8 60.1-83.5 73.8-83.5 194.7 0 268.5 41.5 36.7 97.5 55 152.9 55.4h1.7c55.4 0 110-17.9 148.8-52.4 14.4-12.7 11.99-36.6.1-47.7z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
-                    <circle cx="144" cy="208" r="32"/><circle cx="152" cy="311" r="32"/><circle cx="224" cy="144" r="32"/><circle cx="256" cy="367" r="48"/><circle cx="328" cy="144" r="32"/>
-                </svg>
-            </button>   
-            <button class="toolbelt-menu-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Brush</title>
-                    <path d="M452.37 59.63h0a40.49 40.49 0 00-57.26 0L184 294.74c23.08 4.7 46.12 27.29 49.26 49.26l219.11-227.11a40.49 40.49 0 000-57.26zM138 336c-29.88 0-54 24.5-54 54.86 0 23.95-20.88 36.57-36 36.57C64.56 449.74 92.82 464 120 464c39.78 0 72-32.73 72-73.14 0-30.36-24.12-54.86-54-54.86z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
-                </svg>
-            </button>   
-            <button class="toolbelt-menu-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Dice</title>
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M448 341.37V170.61A32 32 0 00432.11 143l-152-88.46a47.94 47.94 0 00-48.24 0L79.89 143A32 32 0 0064 170.61v170.76A32 32 0 0079.89 369l152 88.46a48 48 0 0048.24 0l152-88.46A32 32 0 00448 341.37z"/>
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M69 153.99l187 110 187-110M256 463.99v-200"/>
-                    <ellipse cx="256" cy="152" rx="24" ry="16"/><ellipse cx="208" cy="296" rx="16" ry="24"/><ellipse cx="112" cy="328" rx="16" ry="24"/>
-                    <ellipse cx="304" cy="296" rx="16" ry="24"/><ellipse cx="400" cy="240" rx="16" ry="24"/><ellipse cx="304" cy="384" rx="16" ry="24"/>
-                    <ellipse cx="400" cy="328" rx="16" ry="24"/>
-                </svg>
-            </button>   
-        </div>
+      <div class="logo-container">
+        <h1>TOOLBELT</h1>
+      </div>
+      <div class="toolbelt-menu-items-container">
+        <button
+          id="menu-item-search"
+          class="toolbelt-menu-item selected-menu-item"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <title>Search</title>
+            <path
+              d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"
+              fill="none"
+              stroke="currentColor"
+              stroke-miterlimit="10"
+              stroke-width="32"
+            />
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="32"
+              d="M338.29 338.29L448 448"
+            />
+          </svg>
+        </button>
+        <button id="menu-item-calendar" class="toolbelt-menu-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <title>Calendar</title>
+            <rect
+              fill="none"
+              stroke="currentColor"
+              stroke-linejoin="round"
+              stroke-width="32"
+              x="48"
+              y="80"
+              width="416"
+              height="384"
+              rx="48"
+            />
+            <circle fill="currentColor" cx="296" cy="232" r="24" />
+            <circle fill="currentColor" cx="376" cy="232" r="24" />
+            <circle fill="currentColor" cx="296" cy="312" r="24" />
+            <circle fill="currentColor" cx="376" cy="312" r="24" />
+            <circle fill="currentColor" cx="136" cy="312" r="24" />
+            <circle fill="currentColor" cx="216" cy="312" r="24" />
+            <circle fill="currentColor" cx="136" cy="392" r="24" />
+            <circle fill="currentColor" cx="216" cy="392" r="24" />
+            <circle fill="currentColor" cx="296" cy="392" r="24" />
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linejoin="round"
+              stroke-width="32"
+              stroke-linecap="round"
+              d="M128 48v32M384 48v32"
+            />
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linejoin="round"
+              stroke-width="32"
+              d="M464 160H48"
+            />
+          </svg>
+        </button>
+        <button class="toolbelt-menu-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <title>Reader</title>
+            <rect
+              x="96"
+              y="48"
+              width="320"
+              height="416"
+              rx="48"
+              ry="48"
+              fill="none"
+              stroke="currentColor"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+              d="M176 128h160M176 208h160M176 288h80"
+            />
+          </svg>
+        </button>
+        <button class="toolbelt-menu-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <title>Stopwatch</title>
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+              d="M256 232v-80"
+            />
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+              d="M256 88V72M132 132l-12-12"
+            />
+            <circle
+              cx="256"
+              cy="272"
+              r="32"
+              fill="none"
+              stroke="currentColor"
+              stroke-miterlimit="10"
+              stroke-width="32"
+            />
+            <path
+              d="M256 96a176 176 0 10176 176A176 176 0 00256 96z"
+              fill="none"
+              stroke="currentColor"
+              stroke-miterlimit="10"
+              stroke-width="32"
+            />
+          </svg>
+        </button>
+        <button class="toolbelt-menu-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <title>Color Palette</title>
+            <path
+              d="M430.11 347.9c-6.6-6.1-16.3-7.6-24.6-9-11.5-1.9-15.9-4-22.6-10-14.3-12.7-14.3-31.1 0-43.8l30.3-26.9c46.4-41 46.4-108.2 0-149.2-34.2-30.1-80.1-45-127.8-45-55.7 0-113.9 20.3-158.8 60.1-83.5 73.8-83.5 194.7 0 268.5 41.5 36.7 97.5 55 152.9 55.4h1.7c55.4 0 110-17.9 148.8-52.4 14.4-12.7 11.99-36.6.1-47.7z"
+              fill="none"
+              stroke="currentColor"
+              stroke-miterlimit="10"
+              stroke-width="32"
+            />
+            <circle cx="144" cy="208" r="32" />
+            <circle cx="152" cy="311" r="32" />
+            <circle cx="224" cy="144" r="32" />
+            <circle cx="256" cy="367" r="48" />
+            <circle cx="328" cy="144" r="32" />
+          </svg>
+        </button>
+        <button id="menu-item-paint" class="toolbelt-menu-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <title>Brush</title>
+            <path
+              d="M452.37 59.63h0a40.49 40.49 0 00-57.26 0L184 294.74c23.08 4.7 46.12 27.29 49.26 49.26l219.11-227.11a40.49 40.49 0 000-57.26zM138 336c-29.88 0-54 24.5-54 54.86 0 23.95-20.88 36.57-36 36.57C64.56 449.74 92.82 464 120 464c39.78 0 72-32.73 72-73.14 0-30.36-24.12-54.86-54-54.86z"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+          </svg>
+        </button>
+        <button class="toolbelt-menu-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <title>Dice</title>
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+              d="M448 341.37V170.61A32 32 0 00432.11 143l-152-88.46a47.94 47.94 0 00-48.24 0L79.89 143A32 32 0 0064 170.61v170.76A32 32 0 0079.89 369l152 88.46a48 48 0 0048.24 0l152-88.46A32 32 0 00448 341.37z"
+            />
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+              d="M69 153.99l187 110 187-110M256 463.99v-200"
+            />
+            <ellipse cx="256" cy="152" rx="24" ry="16" />
+            <ellipse cx="208" cy="296" rx="16" ry="24" />
+            <ellipse cx="112" cy="328" rx="16" ry="24" />
+            <ellipse cx="304" cy="296" rx="16" ry="24" />
+            <ellipse cx="400" cy="240" rx="16" ry="24" />
+            <ellipse cx="304" cy="384" rx="16" ry="24" />
+            <ellipse cx="400" cy="328" rx="16" ry="24" />
+          </svg>
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
