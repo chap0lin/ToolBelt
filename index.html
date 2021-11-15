@@ -29,7 +29,7 @@
                     <div class="one-box">
                         <input type="number" step="any" class="inputNumber" id="firstField"/>
                         <select name="normal-measures" id="normal-measures" class="unitSelector">
-                            <!-- <option value="null"> </option> -->
+                            <option value="null"></option>
                             <option value="kg">kg</option>
                             <option value="m">m</option>
                             <option value="cm">cm</option>
@@ -43,7 +43,7 @@
                     <div class="one-box">
                         <input type="number" step="any" class="inputNumber" id="secondField"/>
                         <select name="weird-measures" id="weird-measures" class="unitSelector">
-                            <!-- <option value="null"> </option> -->
+                            <option value="null"></option>
                             <option value="lbs">Lbs</option>
                             <option value="miles">miles</option>
                             <option value="inch">inch</option>
@@ -67,8 +67,8 @@
 
                     if (value1 === "kg" && value2 === "lbs"){
                         firstField.addEventListener("keypress", (evt)=>{
-                        if(evt.key == "Enter")
-                            secondField.value = (firstField.value/0.453592).toFixed(2)
+                            if(evt.key == "Enter")
+                                secondField.value = (firstField.value/0.453592).toFixed(2)
                         })
                         firstField.addEventListener("blur", ()=>{
                             secondField.value = (firstField.value/0.453592).toFixed(2)
@@ -79,6 +79,57 @@
                         })
                         secondField.addEventListener("blur", ()=>{
                             firstField.value = (secondField.value*0.453592).toFixed(2)
+                        })
+                    }
+
+                    if (value1 === "m" && value2 === "miles"){
+                        firstField.addEventListener("keypress", (evt)=>{
+                            if(evt.key == "Enter")
+                                secondField.value = (firstField.value/1609.34).toFixed(2)
+                        })
+                        firstField.addEventListener("blur", ()=>{
+                            secondField.value = (firstField.value/1609.34).toFixed(2)
+                        })
+                        secondField.addEventListener("keypress", (evt)=>{
+                            if(evt.key == "Enter")
+                                firstField.value = (secondField.value*1609.34).toFixed(2)
+                        })
+                        secondField.addEventListener("blur", ()=>{
+                            firstField.value = (secondField.value*1609.34).toFixed(2)
+                        })
+                    }
+
+                    if (value1 === "cm" && value2 === "inch"){
+                        firstField.addEventListener("keypress", (evt)=>{
+                            if(evt.key == "Enter")
+                                secondField.value = (firstField.value/2.54).toFixed(2)
+                        })
+                        firstField.addEventListener("blur", ()=>{
+                            secondField.value = (firstField.value/2.54).toFixed(2)
+                        })
+                        secondField.addEventListener("keypress", (evt)=>{
+                            if(evt.key == "Enter")
+                                firstField.value = (secondField.value*2.54).toFixed(2)
+                        })
+                        secondField.addEventListener("blur", ()=>{
+                            firstField.value = (secondField.value*2.54).toFixed(2)
+                        })
+                    }
+
+                    if (value1 === "C" && value2 === "F"){
+                        firstField.addEventListener("keypress", (evt)=>{
+                            if(evt.key == "Enter")
+                                secondField.value = (firstField.value*1.8+32).toFixed(2)
+                        })
+                        firstField.addEventListener("blur", ()=>{
+                            secondField.value = (firstField.value*1.8+32).toFixed(2)
+                        })
+                        secondField.addEventListener("keypress", (evt)=>{
+                            if(evt.key == "Enter")
+                                firstField.value = ((secondField.value-32)/1.8).toFixed(2)
+                        })
+                        secondField.addEventListener("blur", ()=>{
+                            firstField.value = ((secondField.value-32)/1.8).toFixed(2)
                         })
                     }
             
