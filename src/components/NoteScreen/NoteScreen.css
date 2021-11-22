@@ -1,0 +1,35 @@
+.note-screen-container{
+  justify-content: center;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.note-screen-container textarea {
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  resize: none;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.note-screen-container h1 {
+  text-align: center;
+}
+
+.note-screen-container .notepad{
+
+  box-sizing: border-box;
+  align-self: center;
+  width: 950px;
+  height: 500px;
+  padding: 25px;
+
+  background: #142850;
+  border-radius: 10px;
+
+}
