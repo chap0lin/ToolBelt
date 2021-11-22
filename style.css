@@ -48,10 +48,6 @@ body{
   justify-content: space-between;
 }
 
-.logo-container{
-
-}
-
 .logo-container h1{
   font: normal normal normal 32px/43px Segoe UI;
   letter-spacing: 6.4px;
@@ -91,11 +87,9 @@ body{
 .toolbelt-menu-items-container .selected-menu-item svg{
   color: #eee
 }
-
 .toolbelt-menu-item:hover{
   transform: scale(1.2);
 }
-
 .selected-menu-item:hover{
   transform: scale(1);
 }
