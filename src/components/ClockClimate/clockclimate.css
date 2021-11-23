@@ -28,6 +28,7 @@
     font-size: 44px;
     padding-top: 5px;
     line-height:40px;
+    padding-bottom: 5px;
 }
 
 #clockclimate .climate-max {
@@ -41,7 +42,7 @@
     padding-left: 100px;
     color: #4F658F;
     line-height:5px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 #clockclimate .climate-current {
@@ -57,4 +58,5 @@
 #clockclimate p{
     display: inline;
     vertical-align: top;
+    padding-left: 2px;
 }
