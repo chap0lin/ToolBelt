@@ -4,7 +4,7 @@ Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para s
 ## Desenho UI:
 https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
 ## Lista de Features:
-- [ ] Conversor de unidades [Luiza]
+- [x] Conversor de unidades [Luiza]
     - Peso kg to lbs
     - Distancia metro to milhas, cm to inch
     - Temperatura C to F
@@ -22,7 +22,7 @@ https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
 - [x] Google Search [Carlos]
 - [x] Youtube Search [Carlos]
 - [x] Down for everyone or just me [Carlos]
-- [ ] Translate [Rafaela]
+- [x] Translate [Rafaela]
 - [ ] Color pallets [Leo R.]
 
 **Contribuidores:**
