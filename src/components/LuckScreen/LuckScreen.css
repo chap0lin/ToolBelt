@@ -1,0 +1,180 @@
+.luck-screen-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.luck-screen-container h1{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.dice-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  height: 80px;
+}
+.dice {
+  align-items: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  grid-template-rows: auto;
+  justify-items: center;
+  padding: 10px;
+  perspective: 600px;
+}
+.die-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 30px;
+  list-style-type: none;
+  transform-style: preserve-3d;
+  width: 30px;
+  transition: transform 2s ease-out;
+  transform: rotateY(-90deg);
+}
+
+.die-item {
+  background-color: #fefefe;
+  border: 1px solid #142850;
+  border-radius: 2px;
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  padding: 3px;
+  width: 100%;
+}
+.dot {
+  align-self: center;
+  background-color: #142850;
+  border-radius: 50%;
+  box-shadow: inset -0.15px 0.15px 0.25px rgba(0, 0, 0, 0.5);
+  display: block;
+  height: 8px;
+  justify-self: center;
+  width: 8px;
+}
+.even-roll[data-roll="1"] {
+  transform: rotateX(360deg) rotateY(720deg) rotateZ(360deg);
+}
+.even-roll[data-roll="2"] {
+  transform: rotateX(450deg) rotateY(720deg) rotateZ(360deg);
+}
+.even-roll[data-roll="3"] {
+  transform: rotateX(360deg) rotateY(630deg) rotateZ(360deg);
+}
+.even-roll[data-roll="4"] {
+  transform: rotateX(360deg) rotateY(810deg) rotateZ(360deg);
+}
+.even-roll[data-roll="5"] {
+  transform: rotateX(270deg) rotateY(720deg) rotateZ(360deg);
+}
+.even-roll[data-roll="6"] {
+  transform: rotateX(360deg) rotateY(900deg) rotateZ(360deg);
+}
+.rolling-dice{
+  animation: 1.98s linear rolling;
+  /* transform: rotateX(2160deg) rotateY(2160deg); */
+}
+
+@keyframes rolling {
+  25%{
+    transform: rotateX(270deg) rotateY(270deg);;
+  }
+  50%{
+    transform: rotateX(540deg) rotateY(540deg);
+  }
+  75%{
+    transform: rotateX(810deg) rotateY(810deg);;
+  }
+  100%{
+    transform: rotateX(1080deg) rotateY(1080deg);
+  }
+}
+
+[data-side="1"] {
+  transform: rotate3d(0, 0, 0, 90deg) translateZ(20px);
+}
+[data-side="2"] {
+  transform: rotate3d(-1, 0, 0, 90deg) translateZ(20px);
+}
+[data-side="3"] {
+  transform: rotate3d(0, 1, 0, 90deg) translateZ(20px);
+}
+[data-side="4"] {
+  transform: rotate3d(0, -1, 0, 90deg) translateZ(20px);
+}
+[data-side="5"] {
+  transform: rotate3d(1, 0, 0, 90deg) translateZ(20px);
+}
+[data-side="6"] {
+  transform: rotate3d(1, 0, 0, 180deg) translateZ(20px);
+}
+[data-side="1"] .dot:nth-of-type(1) { grid-area: five; }
+[data-side="2"] .dot:nth-of-type(1) { grid-area: one; }
+[data-side="2"] .dot:nth-of-type(2) { grid-area: nine; }
+[data-side="3"] .dot:nth-of-type(1) { grid-area: one; }
+[data-side="3"] .dot:nth-of-type(2) { grid-area: five; }
+[data-side="3"] .dot:nth-of-type(3) { grid-area: nine; }
+[data-side="4"] .dot:nth-of-type(1) { grid-area: one; }
+[data-side="4"] .dot:nth-of-type(2) { grid-area: three; }
+[data-side="4"] .dot:nth-of-type(3) { grid-area: seven; }
+[data-side="4"] .dot:nth-of-type(4) { grid-area: nine; }
+[data-side="5"] .dot:nth-of-type(1) { grid-area: one; }
+[data-side="5"] .dot:nth-of-type(2) { grid-area: three; }
+[data-side="5"] .dot:nth-of-type(3) { grid-area: five; }
+[data-side="5"] .dot:nth-of-type(4) { grid-area: seven; }
+[data-side="5"] .dot:nth-of-type(5) { grid-area: nine; }
+[data-side="6"] .dot:nth-of-type(1) { grid-area: one; }
+[data-side="6"] .dot:nth-of-type(2) { grid-area: three; }
+[data-side="6"] .dot:nth-of-type(3) { grid-area: four; }
+[data-side="6"] .dot:nth-of-type(4) { grid-area: six; }
+[data-side="6"] .dot:nth-of-type(5) { grid-area: seven; }
+[data-side="6"] .dot:nth-of-type(6) { grid-area: nine; }
+
+.dice-input-container{
+  align-self: center;
+  margin-top: 20px;
+}
+
+.dice-input-container label{
+  margin-right: 8px;
+  font-size: 14px;
+  color: #142850;
+}
+
+.dice-input-container input{
+  width: 35px;
+  height: 28px;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #142850;
+}
+
+.dice-roll-button{
+  width: 100px;
+  height: 30px;
+  align-self: center;
+  margin-top: 20px;
+  background-color: #142850;
+  color: #eee;
+  border-radius: 10px;
+  border:0;
+}
+
+.dice-roll-button:hover{
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
