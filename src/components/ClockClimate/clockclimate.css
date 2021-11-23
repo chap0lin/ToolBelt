@@ -1,0 +1,49 @@
+#clockclimate h1{
+    text-align: center;
+    font-size: 12px;
+    color: #142850;
+}
+
+#flex-container-clock {
+    display: flex;
+    flex-direction: row;
+}
+
+#flex-container-clock > .flex-item-clock {
+    flex: auto;
+    text-align: center;
+}
+
+#clockclimate div{
+    color: #142850;
+    font-size: 12px;
+}
+
+#clockclimate .clock-hours{
+    font-size: 44px;
+    padding-top: 15px;
+}
+
+#clockclimate .climate-max {
+    padding-left: 90px;
+    color: #A4363B;
+    opacity: 0.8;
+}
+
+#clockclimate .climate-min {
+    padding-left: 90px;
+    color: #4F658F;
+}
+
+#clockclimate .climate-current {
+    font-size: 44px;
+}
+
+#clockclimate svg {
+    height: 16px;
+}
+
+#clockclimate p{
+    display: inline;
+    vertical-align: top;
+}
