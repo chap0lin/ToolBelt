@@ -94,5 +94,16 @@ https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
 			<br />
 			<!-- <a href="#" title="Code">💻</a> -->
 		</td>
+		<td align="center">
+			<a href="https://github.com/clarafortes12">
+				<img src="https://avatars.githubusercontent.com/u/56121872?v=4" width="100px;" alt=""/>
+				<br />
+				<sub>
+					<b>Clara Fortes</b>
+				</sub>
+			</a>
+			<br />
+			<!-- <a href="#" title="Code">💻</a> -->
+		</td>
 	</tr>
 </table>
