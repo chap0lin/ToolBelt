@@ -1,5 +1,6 @@
 import ToolBeltSearch, {ToolbeltSearchDestroy} from "../components/ToolbeltSearch/ToolbeltSearch.js"
 import CalendarScreen, {CalendarScreenDestroy} from "../components/CalendarScreen/CalendarScreen.js"
+import NotepadScreen, {NotepadScreenDestroy} from "../components/NoteScreen/NoteScreen.js"
 import PaintScreen, {PaintScreenDestroy} from "../components/PaintScreen/PaintScreen.js"
 
 var CurrentSelectedMenuItem = {
@@ -23,6 +24,7 @@ const NavigateToScreen = (screen, destroy, id) => {
 const CreateToolbeltMenuListeners = () => {
   const search = document.getElementById('menu-item-search')
   const calendar = document.getElementById('menu-item-calendar')
+  const notepad = document.getElementById('menu-item-note')
   const paint = document.getElementById('menu-item-paint')
 
   search.addEventListener('click', () => {
@@ -31,6 +33,10 @@ const CreateToolbeltMenuListeners = () => {
 
   calendar.addEventListener('click', () => {
     NavigateToScreen(CalendarScreen, CalendarScreenDestroy, 'menu-item-calendar')
+  })
+
+  notepad.addEventListener('click', () => {
+    NavigateToScreen(NotepadScreen, NotepadScreenDestroy, 'menu-item-note')
   })
 
   paint.addEventListener('click', () => {
