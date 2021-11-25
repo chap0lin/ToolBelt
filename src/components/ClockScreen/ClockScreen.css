@@ -1,0 +1,59 @@
+.clock-screen-container h1 {
+    font: normal normal 600 28px/37px Segoe UI;
+    color: #142850;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clock-screen-container .time {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.clock-screen-container .time p {
+    width: 50px;
+    height: 40px;
+    background: #142850;
+    border-radius: 5px;
+    color: #EEEEEE;
+    font: normal normal 600 24px/32px Segoe UI;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+}
+
+.clock-screen-container .button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.clock-screen-container .button-container button {
+    font: normal normal 600 14px/19px Segoe UI;
+    letter-spacing: 0.28px;
+    color: #EEEEEE;
+    width: 100px;
+    height: 40px;
+    background: #4F658F;
+    border-radius: 5px;
+    display: none;
+}
+
+.clock-screen-container .button-container button:first-child {
+    background: #36882D;
+    display: initial;
+}
+
+.clock-screen-container .button-container button:last-child {
+    background: #A4363B;
+}
