@@ -5,7 +5,7 @@ import LuckScreen, {LuckScreenDestroy} from "../components/LuckScreen/LuckScreen
 
 var CurrentSelectedMenuItem = {
   id: 'menu-item-search',
-  screen: LuckScreen,//ToolBeltSearch,
+  screen: ToolBeltSearch,
   destroy: ToolbeltSearchDestroy,
 }
 
