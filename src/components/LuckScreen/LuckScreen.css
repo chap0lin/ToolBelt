@@ -166,6 +166,7 @@
 
 .dice-roll-button{
   width: 100px;
+  font-weight: 600;
   height: 30px;
   align-self: center;
   margin-top: 20px;
