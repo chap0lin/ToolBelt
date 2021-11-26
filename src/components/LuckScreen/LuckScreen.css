@@ -84,7 +84,7 @@
   transform: rotateX(360deg) rotateY(900deg) rotateZ(360deg);
 }
 .rolling-dice{
-  animation: 1.98s linear rolling;
+  animation: 1.95s linear rolling;
   /* transform: rotateX(2160deg) rotateY(2160deg); */
 }
 
@@ -151,6 +151,7 @@
 .dice-input-container label{
   margin-right: 8px;
   font-size: 14px;
+  font-weight: 600;
   color: #142850;
 }
 
@@ -159,6 +160,7 @@
   height: 28px;
   padding-left: 5px;
   font-size: 14px;
+  font-weight: 600;
   color: #142850;
 }
 

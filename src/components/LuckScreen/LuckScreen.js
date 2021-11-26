@@ -101,24 +101,6 @@ const LuckScreen = () =>{
   LuckScreenContainer.appendChild(diceInputContainer)
   LuckScreenContainer.appendChild(diceButton)
 
-
-  const DrawTitle = document.createElement('h1')
-  DrawTitle.innerText = 'Draw'
-
-  const DrawContainer = document.createElement('div')
-  DrawContainer.classList.add("draw-container")
-
-  const drawInputContainer = document.createElement('div')
-
-  const drawInputTitle = document.createElement('h2')
-  drawInputTitle.innerText = 'Insert options (1 per line):'
-
-  const drawTextarea = document.createElement('textarea')
-
-
-  const drawResultContainer = document.createElement('div')
-
-
   mainContainer.appendChild(LuckScreenContainer)
 }
 
