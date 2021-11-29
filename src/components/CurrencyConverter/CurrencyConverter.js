@@ -4,6 +4,8 @@ import AddCss from '../../utils/addCss.js'
 
 var options1 = ["BRL", "USD", "EUR", "BIT", "ETC"]
 var options2 = ["BRL", "USD", "EUR", "BIT", "ETC"]
+const link = "https://www3.bcb.gov.br/bc_moeda/rest/cotacao/fechamento/ultima/1/"
+
 
 function getDate(){
     let d = new Date();
@@ -18,8 +20,9 @@ function getDate(){
 }
 
 function dollarExchange(data){
+    var date = getDate()
     const request = new XMLHttpRequest()
-    const url = `https://api.allorigins.win/raw?url=${encodeURIComponent('https://www3.bcb.gov.br/bc_moeda/rest/cotacao/fechamento/ultima/1/220/2021-11-24')}`
+    const url = `https://api.allorigins.win/raw?url=${encodeURIComponent(`${link}220/${date}`)}`
     request.open("GET", url)
     request.send()
 
@@ -27,6 +30,7 @@ function dollarExchange(data){
         if(request.responseText){
             var string = JSON.stringify(request.responseText)
             string = string.replace(/\s+/g, '');
+            console.log(string)
 
             var i1 = string.search('<taxaCompra')
             string1 = string.substr(i1)
