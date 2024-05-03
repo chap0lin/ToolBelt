@@ -28,3 +28,8 @@
   color: #142850;
   border-radius: 10px;
 }
+
+.paint-screen-container .paint-buttons-container input:hover {
+  cursor: poiner;
+  background-color: "#ddd";
+}
