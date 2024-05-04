@@ -2,6 +2,7 @@ import ToolBeltSearch, {ToolbeltSearchDestroy} from "../components/ToolbeltSearc
 import CalendarScreen, {CalendarScreenDestroy} from "../components/CalendarScreen/CalendarScreen.js"
 import NotepadScreen, {NotepadScreenDestroy} from "../components/NoteScreen/NoteScreen.js"
 import PaintScreen, {PaintScreenDestroy} from "../components/PaintScreen/PaintScreen.js"
+import ClockScreen, {ClockScreenDestroy} from "../components/ClockScreen/ClockScreen.js"
 import LuckScreen, {LuckScreenDestroy} from "../components/LuckScreen/LuckScreen.js"
 
 var CurrentSelectedMenuItem = {
@@ -27,6 +28,7 @@ const CreateToolbeltMenuListeners = () => {
   const calendar = document.getElementById('menu-item-calendar')
   const notepad = document.getElementById('menu-item-note')
   const paint = document.getElementById('menu-item-paint')
+  const clock = document.getElementById('menu-item-clock')
   const luck = document.getElementById('menu-item-luck')
 
   search.addEventListener('click', () => {
@@ -49,7 +51,9 @@ const CreateToolbeltMenuListeners = () => {
     NavigateToScreen(LuckScreen, LuckScreenDestroy, 'menu-item-luck')
   })
 
-
+  clock.addEventListener('click', () => {
+    NavigateToScreen(ClockScreen, ClockScreenDestroy, 'menu-item-clock')
+  })
 }
 
 const Navigator = () => {
