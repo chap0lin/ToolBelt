@@ -17,6 +17,12 @@
   padding: 0;
   margin: 0;
   border: 0;
+  cursor: pointer;
+}
+
+#translator .translate-button:hover {
+  width: 25px;
+  height: 25px;
 }
 
 #translator .translate-button svg {
