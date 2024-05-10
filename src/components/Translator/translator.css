@@ -23,6 +23,8 @@
 #translator .translate-button:hover {
   width: 25px;
   height: 25px;
+  margin-left: -2.5px;
+  margin-right: -2.5px;
 }
 
 #translator .translate-button svg {
