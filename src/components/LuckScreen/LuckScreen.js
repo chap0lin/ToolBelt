@@ -101,6 +101,27 @@ const LuckScreen = () =>{
   LuckScreenContainer.appendChild(diceInputContainer)
   LuckScreenContainer.appendChild(diceButton)
 
+  const raffleTitle = document.createElement("h1")
+  raffleTitle.innerText = 'Sorteio'
+
+  const raffleInputContainer = document.createElement('div')
+  raffleInputContainer.classList.add('raffle-input-container')
+
+  const raffleResultContainer = document.createElement('div')
+  raffleResultContainer.classList.add('raffle-result-container')
+
+  const winnerText = document.createElement("p")
+  winnerText.innerText = "O vencedor é:"
+  const winnerHighlight = document.createElement("h1")
+  winnerHighlight.id = "raffle-result"
+
+  raffleResultContainer.appendChild(winnerText)
+  raffleResultContainer.appendChild(winnerHighlight)
+
+  LuckScreenContainer.appendChild(raffleTitle)
+  LuckScreenContainer.appendChild(raffleInputContainer)
+  LuckScreenContainer.appendChild(raffleResultContainer)
+
   mainContainer.appendChild(LuckScreenContainer)
 }
 
