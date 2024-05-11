@@ -107,6 +107,26 @@ const LuckScreen = () =>{
   const raffleInputContainer = document.createElement('div')
   raffleInputContainer.classList.add('raffle-input-container')
 
+  const raffleFieldTitle = document.createElement("h2")
+  raffleFieldTitle.classList.add("raffle-field-title")
+  raffleFieldTitle.innerText = "Insira os nomes (um por linha):"
+
+  const raffleInputText = document.createElement("textarea")
+  raffleInputText.name = "raffle-input"
+  raffleInputText.id = "raffle-input"
+
+  const raffleButtonContainer = document.createElement("div")
+  raffleButtonContainer.classList.add("raffle-button-container")
+  const raffleDrawButton = document.createElement("div")
+  raffleDrawButton.classList.add("raffle-button")
+  const raffleDrawText = document.createElement("p")
+  raffleDrawText.innerText = "SORTEAR"
+  raffleDrawButton.appendChild(raffleDrawText)
+  const raffleClearButton = document.createElement("div")
+  raffleClearButton.classList.add("raffle-button")
+  const raffleClearText = document.createElement("p")
+  raffleClearText.innerText = "Limpar"
+
   const raffleResultContainer = document.createElement('div')
   raffleResultContainer.classList.add('raffle-result-container')
 
