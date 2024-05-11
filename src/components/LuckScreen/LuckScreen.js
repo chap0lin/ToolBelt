@@ -145,10 +145,11 @@ const LuckScreen = () =>{
   raffleResultContainer.appendChild(winnerText)
   raffleResultContainer.appendChild(winnerHighlight)
 
+  raffleInputContainer.appendChild(raffleResultContainer)
+
   LuckScreenContainer.appendChild(raffleTitle)
   LuckScreenContainer.appendChild(raffleFieldTitle)
   LuckScreenContainer.appendChild(raffleInputContainer)
-  LuckScreenContainer.appendChild(raffleResultContainer)
 
   mainContainer.appendChild(LuckScreenContainer)
 }

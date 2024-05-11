@@ -201,6 +201,7 @@
   height: 150px;
   width: calc(50% - 110px);
   resize: none;
+  border-radius: 10px;
   font-size: 18px;
 }
 .raffle-button-container{
@@ -235,12 +236,10 @@
 }
 
 .raffle-result-container{
-  margin-top: 32px;
   align-self: center;
   background-color: rgb(96,96,96);
-  width: 480px;
+  width: calc(50% - 110px);
   border-radius: 32px;
   color:  white;
-  padding: 32px;
   visibility: hidden;
 }
