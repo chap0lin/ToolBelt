@@ -17,7 +17,7 @@ https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
 - [x] Cronometro [Leo M.]
 - [ ] Countdown [Leo M.]
 - [x] Dice [Carlos]
-- [ ] Sorteio [Carlos]
+- [x] Sorteio [Carlos]
 - [ ] Notas [Rafaela]
 
 - [ ] Climate [Francisco / Leo M.]
