@@ -117,16 +117,18 @@ const LuckScreen = () =>{
 
   const raffleButtonContainer = document.createElement("div")
   raffleButtonContainer.classList.add("raffle-button-container")
-  const raffleDrawButton = document.createElement("div")
+  const raffleDrawButton = document.createElement("button")
   raffleDrawButton.classList.add("raffle-button")
   const raffleDrawText = document.createElement("p")
   raffleDrawText.innerText = "SORTEAR"
   raffleDrawButton.appendChild(raffleDrawText)
-  const raffleClearButton = document.createElement("div")
+  const raffleClearButton = document.createElement("button")
   raffleClearButton.classList.add("raffle-button")
   const raffleClearText = document.createElement("p")
   raffleClearText.innerText = "Limpar"
   raffleClearButton.appendChild(raffleClearText)
+
+
 
   raffleButtonContainer.appendChild(raffleDrawButton)
   raffleButtonContainer.appendChild(raffleClearButton)
@@ -150,6 +152,20 @@ const LuckScreen = () =>{
   LuckScreenContainer.appendChild(raffleTitle)
   LuckScreenContainer.appendChild(raffleFieldTitle)
   LuckScreenContainer.appendChild(raffleInputContainer)
+
+  raffleDrawButton.addEventListener("click", () => {
+    const raw_inputs = raffleInputText.value
+    var contestants = raw_inputs.split('\n')
+    var index_sorteado = Math.floor(Math.random()*contestants.length)
+
+    winnerHighlight.innerText=contestants[index_sorteado]
+    raffleResultContainer.classList.add('show')
+  })
+
+  raffleClearButton.addEventListener("click", () => {
+    raffleInputText.value = ""
+    raffleResultContainer.classList.remove('show')
+  })
 
   mainContainer.appendChild(LuckScreenContainer)
 }

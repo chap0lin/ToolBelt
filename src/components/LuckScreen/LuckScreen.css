@@ -201,7 +201,7 @@
   height: 150px;
   width: calc(50% - 110px);
   resize: none;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: 18px;
 }
 .raffle-button-container{
@@ -227,7 +227,7 @@
   background-color: rgb(192,64,96);
 }
 .raffle-button p{
-  font-size: 24px;
+  font-size: 18px;
   align-self: center;
 }
 .raffle-button:hover{
@@ -239,7 +239,12 @@
   align-self: center;
   background-color: rgb(96,96,96);
   width: calc(50% - 110px);
-  border-radius: 32px;
+  border-radius: 12px;
   color:  white;
   visibility: hidden;
+  text-align: center;
+}
+
+.show{
+  visibility: visible;
 }
