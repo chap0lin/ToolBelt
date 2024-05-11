@@ -12,7 +12,7 @@ https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
     - Distancia metro to milhas, cm to inch
     - Temperatura C to F
 - [x] Paint [Carlos]
-- [ ] Calculator [Leo R.]
+- [ ] Calculadora [Leo R.]
 - [ ] Cores - hex rgb - color picker [Leo R.]
 - [x] Cronometro [Leo M.]
 - [ ] Countdown [Leo M.]
