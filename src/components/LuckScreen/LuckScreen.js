@@ -126,6 +126,13 @@ const LuckScreen = () =>{
   raffleClearButton.classList.add("raffle-button")
   const raffleClearText = document.createElement("p")
   raffleClearText.innerText = "Limpar"
+  raffleClearButton.appendChild(raffleClearText)
+
+  raffleButtonContainer.appendChild(raffleDrawButton)
+  raffleButtonContainer.appendChild(raffleClearButton)
+  raffleInputContainer.appendChild(raffleInputText)
+  raffleInputContainer.appendChild(raffleButtonContainer)
+
 
   const raffleResultContainer = document.createElement('div')
   raffleResultContainer.classList.add('raffle-result-container')
@@ -139,6 +146,7 @@ const LuckScreen = () =>{
   raffleResultContainer.appendChild(winnerHighlight)
 
   LuckScreenContainer.appendChild(raffleTitle)
+  LuckScreenContainer.appendChild(raffleFieldTitle)
   LuckScreenContainer.appendChild(raffleInputContainer)
   LuckScreenContainer.appendChild(raffleResultContainer)
 
