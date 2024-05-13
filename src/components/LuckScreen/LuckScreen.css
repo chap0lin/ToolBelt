@@ -203,6 +203,7 @@
   resize: none;
   border-radius: 12px;
   font-size: 18px;
+  padding: 8px;
 }
 .raffle-button-container{
   display: flex;
