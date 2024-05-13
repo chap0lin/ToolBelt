@@ -154,7 +154,7 @@ const LuckScreen = () =>{
   LuckScreenContainer.appendChild(raffleInputContainer)
 
   raffleDrawButton.addEventListener("click", () => {
-    const raw_inputs = raffleInputText.value
+    const raw_inputs = raffleInputText.value.trimEnd()
     var contestants = raw_inputs.split('\n')
     var index_sorteado = Math.floor(Math.random()*contestants.length)
 
