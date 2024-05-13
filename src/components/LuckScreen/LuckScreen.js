@@ -1,4 +1,4 @@
-import AddCss from "../../utils/addCss.js";
+import AddCss from "../../utils/addCss.js"
 
 var numberOfDices = 2
 var running
@@ -32,17 +32,17 @@ const createDices = () => {
 }
 
 function getRandomNumber(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  min = Math.ceil(min)
+  max = Math.floor(max)
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
 function rollDice(value = null) {
-  const dice = [...document.querySelectorAll(".die-list")];
+  const dice = [...document.querySelectorAll(".die-list")]
   dice.forEach(die => {
-    die.dataset.roll = getRandomNumber(1, 6);
+    die.dataset.roll = getRandomNumber(1, 6)
     die.classList.remove('rolling-dice')
-  });
+  })
 }
 
 const LuckScreen = () =>{
@@ -84,11 +84,11 @@ const LuckScreen = () =>{
   diceButton.addEventListener('click', () => {
     if(!running){
       running = true
-      const dice = [...document.querySelectorAll(".die-list")];
+      const dice = [...document.querySelectorAll(".die-list")]
       dice.forEach(die => {
         die.classList.add('rolling-dice')
         die.dataset.roll = null
-      });
+      })
       setTimeout(()=>{
         rollDice()
         running = false
