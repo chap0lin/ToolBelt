@@ -1,4 +1,4 @@
-import AddCss from "../../utils/addCss.js";
+import AddCss from "../../utils/addCss.js"
 const w = 977
 const h = 540
 
