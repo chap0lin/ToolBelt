@@ -62,7 +62,7 @@ const PaintScreen = () =>{
   undoButton.value = 'UNDO'
   undoButton.addEventListener('click', () => {
     if(imageData.length > 0)
-      ctx.putImageData(imageData.pop(), 0,0)
+      ctx.putImageData(imageData.pop(), 0, 0)
   })
 
   const colorButton = document.createElement('input')
