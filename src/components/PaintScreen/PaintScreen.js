@@ -48,7 +48,7 @@ const PaintScreen = () =>{
   canvas.height = h
   ctx = canvas.getContext('2d')
   ctx.fillStyle = "white"
-  ctx.fillRect(0,0,w,h)
+  ctx.fillRect(0, 0, w, h)
   ctx.strokeStyle = 'black'
   ctx.lineWidth = 1
 
