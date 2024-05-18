@@ -16,7 +16,7 @@ https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
 - [x] Dice [Carlos]
 - [x] Sorteio [Carlos]
 - [x] Notas [Rafaela]
-- [x] Conversor Dolar/ Euro/ Bitcoin / Eth [Luiza]
+- [x] Conversor Dolar / Euro/ Bitcoin / Eth [Luiza]
 - [x] Google Search [Carlos]
 - [x] Youtube Search [Carlos]
 - [x] Down for everyone or just me [Carlos]
