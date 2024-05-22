@@ -1,53 +1,53 @@
-import AddCss from "../../utils/addCss.js";
+import AddCss from "../../utils/addCss.js"
 
 let timerHours, timerMinutes, timerSeconds
 let buttonStart, buttonPause, buttonReset
 
-let tempo = 0, interval;
+let tempo = 0, interval
 
 function showTime() {
-  tempo += 1;
-  const {hours, minutes, seconds} = toStandardTime(tempo);
-  timerHours.innerText = hours;
-  timerMinutes.innerText = minutes;
-  timerSeconds.innerText = seconds;
+  tempo += 1
+  const {hours, minutes, seconds} = toStandardTime(tempo)
+  timerHours.innerText = hours
+  timerMinutes.innerText = minutes
+  timerSeconds.innerText = seconds
 }
 
 function start() {
-  interval = setInterval(showTime, 1000);
-  hideButton([buttonStart]);
-  showButton([buttonPause, buttonReset]);
+  interval = setInterval(showTime, 1000)
+  hideButton([buttonStart])
+  showButton([buttonPause, buttonReset])
 }
 
 function pause() {
   if (interval) {
-    clearInterval(interval);
-    interval = 0;
-    buttonPause.innerHTML = 'RESUME';
+    clearInterval(interval)
+    interval = 0
+    buttonPause.innerHTML = 'RESUME'
   } else {
-    interval = setInterval(showTime, 1000);
-    buttonPause.innerHTML = 'PAUSE';
+    interval = setInterval(showTime, 1000)
+    buttonPause.innerHTML = 'PAUSE'
   }
 }
 
 function reset() {
-  clearInterval(interval);
-  interval = 0;
-  buttonPause.innerHTML = 'PAUSE';
-  tempo = -1;
+  clearInterval(interval)
+  interval = 0
+  buttonPause.innerHTML = 'PAUSE'
+  tempo = -1
   showTime()
-  hideButton([buttonPause, buttonReset]);
-  showButton([buttonStart]);
+  hideButton([buttonPause, buttonReset])
+  showButton([buttonStart])
 }
 
 function toStandardTime(tempo) {
-  let horas = Math.floor(tempo / 3600);
-  let minutos = Math.floor((tempo - horas * 3600) / 60);
-  let segundos = tempo - horas * 3600 - minutos * 60;
+  let horas = Math.floor(tempo / 3600)
+  let minutos = Math.floor((tempo - horas * 3600) / 60)
+  let segundos = tempo - horas * 3600 - minutos * 60
 
-  horas = `${horas}`.padStart(2, '0');
-  minutos = `${minutos}`.padStart(2, '0');
-  segundos = `${segundos}`.padStart(2, '0');
+  horas = `${horas}`.padStart(2, '0')
+  minutos = `${minutos}`.padStart(2, '0')
+  segundos = `${segundos}`.padStart(2, '0')
 
   return {
     hours: horas,
@@ -57,10 +57,10 @@ function toStandardTime(tempo) {
 }
 
 function showButton(btnArr) {
-  btnArr.forEach((btn) => (btn.style.display = 'inline-block'));
+  btnArr.forEach((btn) => (btn.style.display = 'inline-block'))
 }
 function hideButton(btnArr) {
-  btnArr.forEach((btn) => (btn.style.display = 'none'));
+  btnArr.forEach((btn) => (btn.style.display = 'none'))
 }
 
 const ClockScreen = () => {
