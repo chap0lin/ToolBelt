@@ -7,8 +7,8 @@ var options1 = ["BRL", "USD", "EUR", "BTC", "ETH"]
 var options2 = ["BRL", "USD", "EUR", "BTC", "ETH"]
 const link = "https://coinyep.com/api/v1/?from="
 
-var dollar, euro, eth, btc;
-var anyExchangeRate;
+var dollar, euro, eth, btc
+var anyExchangeRate
 
 function getExchangeRate(from,to){
     const request = new XMLHttpRequest()
@@ -19,7 +19,7 @@ function getExchangeRate(from,to){
     request.onload = (e) => {
         if(request.responseText){
             var obj = JSON.parse(request.responseText)
-            anyExchangeRate = parseFloat(obj.price);
+            anyExchangeRate = parseFloat(obj.price)
 
             if(from == 'USD' && to == 'BRL'){
                 dollar.innerText = `USD: ${anyExchangeRate.toFixed(2)}`
@@ -56,8 +56,8 @@ const CurrencyConverter = () => {
     euro = document.createElement('h3')
     columnInfos1.appendChild(dollar)
     columnInfos1.appendChild(euro)
-    getExchangeRate('USD','BRL');
-    getExchangeRate('EUR','BRL');
+    getExchangeRate('USD','BRL')
+    getExchangeRate('EUR','BRL')
 
     const columnInfos2 = document.createElement('div')
     columnInfos2.classList.add('column-infos2')
@@ -65,8 +65,8 @@ const CurrencyConverter = () => {
     eth = document.createElement('h3')
     columnInfos2.appendChild(btc)
     columnInfos2.appendChild(eth)
-    getExchangeRate('BTC','BRL');
-    getExchangeRate('ETH','BRL');
+    getExchangeRate('BTC','BRL')
+    getExchangeRate('ETH','BRL')
   
     const currencyIcon = document.createElement('div')
     currencyIcon.classList.add('toolbelt-currency-converter-icon')
