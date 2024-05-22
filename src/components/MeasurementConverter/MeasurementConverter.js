@@ -102,12 +102,12 @@ const MeasurementConverter = () => {
   })
 
   select1.addEventListener("change", ()=>{
-    select2.selectedIndex=select1.selectedIndex;
+    select2.selectedIndex=select1.selectedIndex
     input1.value = 0
     input2.value = 0
   })
   select2.addEventListener("change", ()=>{
-    select1.selectedIndex=select2.selectedIndex;
+    select1.selectedIndex=select2.selectedIndex
     input1.value = 0
     input2.value = 0
   })
