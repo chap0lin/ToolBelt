@@ -39,12 +39,12 @@ const NotepadScreen = () => {
   const noteBox = document.createElement('textarea')
 
   if (document.cookie.length > 0) {
-    var cookie = document.cookie.split('=');
-    noteBox.textContent = stringAddNewLine(cookie[1]);
+    var cookie = document.cookie.split('=')
+    noteBox.textContent = stringAddNewLine(cookie[1])
   }
 
   noteBox.addEventListener('focusout', () => {
-    document.cookie = "currentText" + "=" + stringRemoveNewLine(noteBox.value);
+    document.cookie = "currentText" + "=" + stringRemoveNewLine(noteBox.value)
   })
 
   noteContainer.appendChild(noteBox)
