@@ -28,7 +28,7 @@ https://xd.adobe.com/view/826909c4-9c4f-4ec6-82e2-dad29f508cc2-d73a/
 - [ ] Climate [Francisco / Leo M.]
 - [ ] Color pallets [Leo R.]
 
-**Contribuidores:**
+## Contribuidores:
 <table>
 	<tr>
 		<td align="center">
