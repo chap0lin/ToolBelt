@@ -1,5 +1,5 @@
 ## :memo: Descrição
-Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para ser usada como página inicial! :D
+Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para ser usada como homepage! :D
 
 ## :zap: Como usar? :zap:
 A aplicação está disponível em: [chap0lin.github.io/ToolBelt](https://chap0lin.github.io/ToolBelt/)
