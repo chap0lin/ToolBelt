@@ -1,4 +1,4 @@
-## :memo: Descrição
+## :memo: Descrição :memo:
 Aplicação que agrupa diversas ferramentas úteis em um só lugar. Ideal para ser usada como homepage! :D
 
 ## :zap: Como usar? :zap:
